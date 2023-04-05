@@ -1,6 +1,6 @@
 public class Bird extends Animal implements Flyable{
 
-    private static final double HEIGHT_UP = 5;
+    private static final double HEIGHT_UP = 4;
 
     private static final double HEIGHT_DOWN = 2.5;
 
