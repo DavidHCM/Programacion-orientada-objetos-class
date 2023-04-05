@@ -6,6 +6,8 @@ public class Bird extends Animal implements Flyable{
 
     private double height = 0;
 
+    private double stats = 12;
+
 
     @Override
     public void rise()
