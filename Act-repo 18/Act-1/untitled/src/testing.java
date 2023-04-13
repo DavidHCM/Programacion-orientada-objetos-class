@@ -10,6 +10,7 @@ public class testing
 
         for (Idioma I:Idioma.values())
         {
+            Dia.indice = I;
             for (Dia f:Dia.values()) {
                 System.out.println(f);
             }
