@@ -4,7 +4,7 @@ public enum Dia
 {
     LUNES,MARTES,MIERCOLES,JUEVES,VIERNES,SABADO,DOMINGO;
 
-    public static Idioma indice;
+    public static Idioma indice = Idioma.ESPAÑOL;
 
 
     public String fr[] = {"lundi","mardi","mercredi","jeudi","vendredi","samedi","dimache"};
