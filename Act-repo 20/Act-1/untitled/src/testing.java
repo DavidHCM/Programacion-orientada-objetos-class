@@ -4,6 +4,7 @@ public class testing
 {
     public static void main(String[] args)
     {
+        /*
         GDrawer <String> gdrawer1 = new GDrawer <String> ();
         GDrawer <String> gdrawer2 = new GDrawer<>(); // Notacion de diamante por que hace una diferencia de tipo
 
@@ -34,6 +35,8 @@ public class testing
 
         System.out.println(gDrawer3);
 
+         */
+
         //=============================
     /*
         BDrawer <String, Float> bDrawer = new BDrawer<>();
@@ -44,5 +47,11 @@ public class testing
         System.out.println(bDrawer.remove1());
         System.out.println(bDrawer.remove2());
      */
+
+        Persona ter1 = new Persona("1","2","3");
+        GDrawer <Persona> test1 = new GDrawer<>();
+
+        test1.put(ter1);
+        System.out.println();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class persona{
+public class Persona {
     protected Date fechaNac;
     protected String nombre,apellidoPaterno,apellidoMaterno;
     protected int edad;
@@ -14,10 +14,6 @@ public class persona{
         this.apellidoMaterno = apellidoMaterno;
     }
 
-    public Persona(String nombre, String apellidoPaterno, String apellidoMaterno, int Date)
-    {
-        this(nombre,apellidoPaterno,apellidoMaterno,0);
-    }
 
     // Setters
 
@@ -36,10 +32,7 @@ public class persona{
         this.apellidoMaterno = apellidoMaterno;
     }
 
-    public void setters_FNM(Date fechas)
-    {
-        fechaNac.day = fechas;
-    }
+
 
     public void setters_AGE(int edad)
     {
@@ -63,10 +56,7 @@ public class persona{
         return apellidoMaterno;
     }
 
-    public Date getters_FNM()
-    {
-        return fecha;
-    }
+
 
     public int getEdad()
     {
