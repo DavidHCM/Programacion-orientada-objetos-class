@@ -22,4 +22,18 @@ public class GDrawer <Type>
         return tmp;
     }
 
+
+    @Override
+    public String toString()
+    {
+        if(this.objectInside == null)
+        {
+            return "Cajon Vacio";
+        }
+        else
+        {
+            return "Cajon de: " + this.objectInside;
+        }
+    }
+
 }
